@@ -10,7 +10,7 @@ body {
 
 p {
     font-size: 40px;
-    font-family:"Ranga", cursive;
+    font-family: 'Ranga', cursive;
 }
 
 .carousel-inner>item>img .carousel-inner>item>a>img {
@@ -22,4 +22,6 @@ p {
     width: 100%;
     margin: auto;
 }
-
+img {
+    border-radius: 8px;
+}
