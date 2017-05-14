@@ -322,6 +322,28 @@
 
 
     </div>
+    <div>
+        Name:<input id="name"><br>
+        Do you like Basketball or Baseball better?<input id="sport"><br>
+        How much do you work on your game?<input id="work"><br>
+        <button>Click Here!!!</button>
+        
+        <h1></h1>
+        <h2></h2>
+    </div>
 </body>
+<script>
+    $(function(){
+        $('button').click(function(){
+           var username = $('#name').val();
+           var usersport = $('#sport').val();
+           var userwork = $('#work').val();
+           $('h1').html("Keep working hard "  + username +".");
+           $('h2').html("If you keep working hard "  + userwork + " you can become a pro in "  + usersport + "!!!")
+           
+        });
+    });
+    
+</script>
 
 </html>
