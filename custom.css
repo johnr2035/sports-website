@@ -26,7 +26,8 @@ p {
     border-radius: 8px;
 }
 
-p {background-color: hsl(120, 100%, 50%);}
+p {background-color: hsl(190, 100%, 50%);}
+h3{background-color: hsl(210, 100%, 50%);}
 h2{background-color: hsl(210, 100%, 50%);}
 
 
